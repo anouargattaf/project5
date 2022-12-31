@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stayle.css">
+    <title>Document</title>
+</head>
+<body>
+    <h4 class="h4">الجزء الخاص بمشغل الراديو (المشروع 5)</h4>
+
+    <main id="player">
+        <header>
+            <img src="images/logo.jpg" alt="img">
+            <h2>LIVE RADIO</h2>
+            <p id="title_radio">RADIO 1</p>
+        </header>
+        <div id="content">
+            <article id="buttons">
+                <img src="images/back.png" id="back">
+                <img src="images/play.png" id="play_pause">
+                <img src="images/next.png" id="next">
+                <audio src="music/tone2020.mp3" id="audio_file"></audio>
+            </article>
+            <article id="volume">
+                <h2>الصوت</h2>
+                <input type="range" id="volume_range">
+                <h2>السرعة</h2>
+                <input type="range" d="volume_speed" max="200" min="0">
+            </article>
+            <article id="color">
+                <button id="color1"></button>
+                <button id="color2"></button>
+                <button id="color3"></button>
+                <button id="color4"></button>
+            </article>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="js/volume.js"></script>
+    <script src="js/color.js"></script>
+</body>
+</html>

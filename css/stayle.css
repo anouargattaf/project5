@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #444;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h4{
+    color: rgb(213, 238, 72);
+    font-weight: 700;
+    text-align: center; 
+    margin: 10px 0;
+}
+main{
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header{
+    text-align: center;
+    height: 300px;
+}
+header img{
+    height: 140px;
+    margin-top: 20px ;
+}
+header h2{
+    margin: 20px;
+    font-size: 35px;
+}
+header p{
+    font-size: 22px;
+}
+#content{
+    background: rgb(202, 202, 187);
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#buttons img{
+    width: 45px;
+    height: 45px;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+#buttons img:hover{
+    scale: 1.1;
+}
+#volume{
+    text-align: center;
+}
+#volume input{
+    width: 100%;
+    cursor: pointer;
+}
+input[type ="range" i]{
+    -webkit-appearance:none;
+    background: rgb(219, 62, 62);
+    height: 4px;
+    margin: 0%;
+}
+input[type = range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: #444;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+#volume h2{
+    color: black;
+    margin: 15px 0;
+    font-size: 25px;
+}
+#color{
+    text-align: center;
+    margin-top: 20px;
+}
+#color button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+#color1{
+    background: rgb(219, 62, 62);
+}
+#color2{
+    background:#B79891 ;
+}
+#color3{
+    background:#2c91cc ;
+}
+#color4{
+    background: #444;
+}
